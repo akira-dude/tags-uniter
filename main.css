@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+html {
+	font-family: Arial, "sans";
+	font-size: 12px;
+	color: black;
+	height: 100%;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+	padding: 40px;
+    background: #F1F1F1;
+    width: 500px;
+}
+.container > span {
+    text-transform: uppercase;
+    color: #8E8E8E;
+    width: 500px;
+    margin: 10px 0;
+    display: block;
+}
+
+.tags-unite {
+	border: 1px solid #8e8e8e;
+    background: white;
+    border-radius: 5px;
+	max-width: 100%;
+    padding-bottom: 3px;
+}
+.tu-text {
+    display: inline-block;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+	position: relative;
+    margin: 3px 3px 0 3px;
+}
+.tu-text button {
+    border: none;
+    height: 16px;
+    width: 16px;
+    background: url(https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/circle-close-128.png) transparent no-repeat;
+    background-size: cover;
+    position: absolute;
+	left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.tu-text p {
+    padding: 1px 5px 1px 16px;
+}
+.tu-write {
+	border: none;
+    margin: 4px 3px 1px 3px;
+}
